@@ -18,7 +18,7 @@ const ListPage = (props: ListProps) => {
                                 <Name>{professor.nome}</Name>
                                 <Value>{professor.valor_hora.toLocaleString('pt-BR', { minimumFractionDigits: 2, style: 'currency', currency: 'BRL' })} por hora</Value>
                                 <Description>{professor.descricao}</Description>
-                                <Button sx={{ width: '70px'}}>Marcar Aula</Button>
+                                <Button sx={{ width: '70%'}}>Marcar Aula</Button>
                             </Info>
                         </ListItem>    
                         )) }  

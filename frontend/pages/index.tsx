@@ -8,34 +8,34 @@ const Home: NextPage = () => {
   const professors: Professor[] = [
     {
       id: 1,
-      nome: "professor 1",
+      nome: "Marcela Machado",
       foto: "https://github.com/marcelamchdo.png",
-      descricao: "Descrição do professor 1",
+      descricao: "Professora de Programação",
       valor_hora: 100
     },
   
     {
       id: 2,
-      nome: "professor 2",
-      foto: "https://github.com/marcelamchdo.png",
-      descricao: "Descrição do professor 2",
-      valor_hora: 200
+      nome: "Daniel Rubens",
+      foto: "https://github.com/danielrubens.png",
+      descricao: "Professora de Programação",
+      valor_hora: 100
     },
 
     {
       id: 3,
-      nome: "professor 3",
-      foto: "https://github.com/marcelamchdo.png",
-      descricao: "Descrição do professor 3",
-      valor_hora: 300
+      nome: "Raynara Santiago",
+      foto: "https://github.com/raynarastg.png",
+      descricao: "Professora de Programação",
+      valor_hora: 100
     },
 
     {
       id: 4,
-      nome: "professor 4",
-      foto: "https://github.com/marcelamchdo.png",
-      descricao: "Descrição do professor 4",
-      valor_hora: 400
+      nome: "Laura Lana",
+      foto: "https://github.com/lauralana.png",
+      descricao: "Professora de Programação",
+      valor_hora: 100
     }
   ]
 
